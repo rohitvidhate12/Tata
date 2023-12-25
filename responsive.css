@@ -1,0 +1,70 @@
+@media screen and (max-width: 768px) {
+  .sec-sli {
+    display: none;
+  }
+  #carouselExampleIndicators .carousel-inner img {
+    height: 400px;
+  }
+  .my-4 .btn {
+    display: none;
+  }
+  #form-4 {
+    display: block;
+  }
+  #form-4 input {
+    width: 100%;
+    margin: 10px 0;
+  }
+  #sec-4 .btn {
+    width: 100%;
+    margin: 30px 0;
+  }
+  .secsub iframe {
+    height: 200px;
+  }
+  #carouselExampleIndicators-9 .carousel-indicators [data-bs-target] {
+    width: 27%;
+    height: 97px;
+    opacity: 1;
+  }
+  #sec-10 {
+    margin-top: 110px;
+  }
+  .my-10 .btn {
+    display: none;
+  }
+  #form-10 {
+    display: block;
+  }
+  #form-10 input {
+    width: 100%;
+    margin: 10px 0;
+  }
+  #sec-10 .btn {
+    width: 100%;
+    margin: 30px 0;
+  }
+  #sec-13 .row {
+    text-align: center;
+  }
+  #sec-13 .col-12 {
+    margin: 20px 0;
+  }
+  #sec-13 {
+    height: 400px;
+  }
+
+  #sec-14 #btn-2 {
+    display: none;
+  }
+  #sec-14 .btn {
+    width: 34%;
+  }
+}
+@media screen and (min-width: 769px) {
+  #carouselExampleIndicators-9 .carousel-indicators [data-bs-target] {
+    width: 28%;
+    height: 166px;
+    opacity: 1;
+  }
+}

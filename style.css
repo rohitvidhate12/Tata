@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0b0b0b;
+  box-sizing: border-box;
+}
+
+/* section-1 navbar   */
+#list-1 {
+  position: sticky;
+  top: 0;
+  z-index: 10000000;
+}
+.navbar li a {
+  color: #fff;
+}
+#list-1 ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+#lii-2 {
+  color: white;
+}
+#list-1 ul li a {
+  text-decoration: none;
+  padding: 11px 0;
+  margin: 0 10px;
+  color: #000;
+}
+#list-1 {
+  overflow: hidden;
+}
+#list-1 ul li a:hover {
+  border-bottom: 5px solid #98040d;
+}
+#lii-2 {
+  background: url("	https://cars.tatamotors.com/images/harrier/camo/btn-camo-bg.gif");
+}
+
+/* section-2   */
+#list-2 {
+  background-color: #1d1d1d;
+  color: #fff;
+}
+/* section-3   */
+#sec-3 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+}
+#sec-3 .btn {
+  border: 1px solid #fff;
+  padding: 10px 0;
+  width: 300px;
+  border-radius: 0px;
+  margin: 10px 0;
+  color: #fff;
+}
+.fa-star {
+  color: gold;
+}
+#sec-3 a {
+  color: #98040d;
+}
+#form-1 {
+  background-color: #000;
+  border: none;
+  border-bottom: 1px solid #98040d;
+}
+/* section-4   */
+#form-4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#form-4 input {
+  background-color: #0b0b0b;
+  border: none;
+  border-bottom: 1px solid #98040d;
+  width: 200px;
+}
+#sec-4 .btn {
+  background-color: rgb(160, 156, 156);
+  border-radius: 0;
+  width: 250px;
+}
+#sec-4 label {
+  color: #9c9c9d;
+}
+#vehicle1,
+#vehicle2 {
+  height: 22px;
+  width: 36px;
+}
+#sec-4 a {
+  color: #98040d;
+  text-decoration: none;
+}
+/* section-5   */
+
+#frame {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+.hr-1 {
+  color: #fff;
+}
+/* section-6   */
+/* #sec-6 {
+  border: 2px solid greenyellow;
+} */
+#sec-6 img {
+  height: 100%;
+}
+#secin-6 {
+  display: flex;
+  align-items: center;
+}
+#sec-6 h2 {
+  font-size: 40px;
+  font-style: italic;
+  color: #98040d;
+  font-weight: bolder;
+}
+#secli-6 {
+  text-decoration: none;
+  color: #fff;
+}
+#seclit-6 {
+  color: #98040d;
+  font-size: 30px;
+  text-decoration: none;
+}
+/* section-7 */
+.secb-7 {
+  color: #98040d;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+  background-color: #2d2d2b;
+}
+/* section-8    */
+#sec-7 {
+  background-color: #fff;
+}
+.seci-7 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+#sec-7 h6 {
+  color: #98040d;
+  font-size: 20px;
+}
+#sec-7 .blist section :nth-child(2) {
+  color: #98040d;
+}
+/* section-9   */
+#sec-9 {
+  margin-bottom: 20%;
+}
+.hr-9 {
+  color: #fff;
+}
+.carousel-indicators img {
+  height: 50%;
+  width: 50%;
+}
+#carouselExampleIndicators-9 .carousel-indicators [data-bs-target] {
+  width: 200px;
+  height: 200px;
+  opacity: 1;
+}
+.carousel-indicators {
+  position: absolute;
+  top: 100%;
+}
+/* section-10   */
+#sec-10 {
+  margin-top: 220px;
+  background-color: #1d1d1d;
+}
+#form-10 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#form-10 input {
+  background-color: #1d1d1d;
+  border: none;
+  border-bottom: 1px solid #98040d;
+  width: 200px;
+}
+#sec-10 .btn {
+  background-color: rgb(160, 156, 156);
+  border-radius: 0;
+  width: 250px;
+}
+#sec-10 label {
+  color: #9c9c9d;
+}
+#vehicle1,
+#vehicle2 {
+  height: 22px;
+  width: 36px;
+}
+#sec-10 a {
+  color: #98040d;
+  text-decoration: none;
+}
+/* section-11  */
+#carouselExampleControls-11 .carousel-control-prev-icon {
+  position: absolute;
+  top: 34%;
+  left: -26%;
+  background-color: red;
+  height: 50px;
+}
+#carouselExampleControls-11 .carousel-control-next-icon {
+  position: absolute;
+  top: 34%;
+  right: -25%;
+  background-color: red;
+  height: 50px;
+}
+.hr-11 {
+  color: #fff;
+}
+#se-11 span {
+  color: #98040d;
+  border-bottom: 2px solid #98040d;
+  font-size: 25px;
+}
+#se-11 {
+  background-color: #1d1d1d;
+}
+.conb-11 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+/* secion 12   */
+#sec-12 {
+  background-color: #1d1d1d;
+  margin-top: 20px;
+}
+#sec-12 p {
+  color: #fff;
+  padding: 20px 0;
+}
+/* section-13   */
+#sec-13 p {
+  color: #fff;
+}
+#secr-13 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sec-13 span {
+  color: #fff;
+}
+#sec-13 span a {
+  color: #fff;
+  text-decoration: none;
+}
+#sec-13 p {
+  color: #98040d;
+}
+/* section-14   */
+#sec-14 .btn {
+  border: none;
+  background-color: #202020;
+  width: 28%;
+  padding: 10px;
+  color: #fff;
+  border-radius: 0;
+  border: 1px solid #fff;
+  margin: 0 50px 0 8px;
+}
+#sec-14 .btn:hover {
+  background-color: #98040d;
+}
+#sec-14 {
+  background-color: #202020;
+  padding: 20px 0;
+}
